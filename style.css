@@ -1,0 +1,149 @@
+/* Обнуление стилей */
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+
+    font-family:
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/*--------------------*/
+
+/* Container
+--------------------*/
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+
+    margin: 0 auto;
+}
+
+/* Main
+--------------------*/
+
+.main__wrapper {
+    display: flex;
+    align-items: center;
+
+    height: 100vh;
+    background: rgb(6, 43, 2);
+    background: linear-gradient(38deg, rgba(6, 43, 2, 1) 0%, rgba(53, 149, 130, 1) 50%, rgba(44, 173, 157, 1) 100%);
+}
+
+.center-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0 auto;
+    padding: 50px 0 0 0;
+
+    background: #565e5d;
+    border-radius: 25px;
+
+    height: 600px;
+    width: 100%;
+    max-width: 600px;
+
+    -webkit-box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.35);
+
+    position: relative;
+}
+
+.helpText {
+    margin: 0 0 20px 0;
+
+    font-size: 18px;
+    color: #fff;
+}
+
+.main-area {
+    margin: 0 0 20px 0;
+    padding: 20px;
+
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    max-height: 200px;
+
+    outline: none;
+    background: #fff;
+
+    resize: none;
+}
+
+.unuse {
+    margin: 0 10px 0 0;
+    width: 100%;
+    max-width: 300px;
+
+    outline: none;
+
+    resize: none;
+
+    cursor: default;
+}
+
+
+.form-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-div {
+    margin: 0 0 40px 0;
+}
+
